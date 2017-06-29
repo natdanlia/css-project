@@ -1,0 +1,122 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+/*font-family: Helvetica, Arial, sans-serif;*/
+html{
+  background-image: url(img/bg.jpg);
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 90%;
+    line-height: 1.6;
+    border-style: solid;
+    border-color: #ffd24a;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: thin;
+    background-color: white;
+    margin-left: 65px;
+    margin-right: 65px;
+  }
+#site_header{
+  background-color: #ff8523;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 30px 150px 30px 30px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+header img {
+  margin-bottom: 20px;
+  /*padding: 10px;*/
+}
+
+.main_navigation a{
+  border-color: white;
+  border-style: solid;
+  color: white;
+  border-width: thin;
+  padding: 10px 35px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+h2, h3{
+  color: #1fabe5
+}
+p a {
+  color: #1fabe5
+}
+ul {
+  font-weight: bold;
+  margin-left: -20px;s
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+thead td {
+  background-color: #1fabe5;
+  border: 1px solid black;
+}
+tbody td {
+  /*background-color: #1fabe5;*/
+  border: 1px solid #1fabe5;
+}
+table img{
+  width: 40%;
+}
+form {
+  background-color: lightgrey;
+  border-radius: 2%;
+  padding: 15px;
+  font-weight: bold;
+}
+form .name {
+  background-color:#ff8523;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 12px;
+
+}
+.name input {
+  height: 30px;
+  width: 160px;
+}
+form .city_container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+form textarea{
+  width: 100%;
+  border-color: #1fabe5;
+  margin: 5px 0px 10px 0px;
+}
+.submit_container input {
+  background-color: #1fabe5;
+  border-radius: 5px;
+  width: 75px;
+  height: 40px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
